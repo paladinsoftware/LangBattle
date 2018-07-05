@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo 'Create files'
+
+time ruby create_test_file.rb 100.txt 100
+time ruby create_test_file.rb 1k.txt 1_000
+time ruby create_test_file.rb 5k.txt 5_000
+time ruby create_test_file.rb 10k.txt 10_000
+time ruby create_test_file.rb 30k.txt 30_000
+time ruby create_test_file.rb 50k.txt 50_000
+time ruby create_test_file.rb 100k.txt 100_000
+time ruby create_test_file.rb 250k.txt 250_000
+time ruby create_test_file.rb 500k.txt 500_000
+time ruby create_test_file.rb 1m.txt 1_000_000
+
+echo 'End'
