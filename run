@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo 'Start processing'
+
+time ruby process_file.rb 100.txt
+echo '------'
+time ruby process_file.rb 1k.txt
+echo '------'
+time ruby process_file.rb 5k.txt
+echo '------'
+time ruby process_file.rb 10k.txt
+echo '------'
+time ruby process_file.rb 30k.txt
+echo '------'
+time ruby process_file.rb 50k.txt
+echo '------'
+time ruby process_file.rb 100k.txt
+echo '------'
+time ruby process_file.rb 250k.txt
+echo '------'
+time ruby process_file.rb 500k.txt
+echo '------'
+time ruby process_file.rb 1m.txt
+echo '------'
+time ruby process_file.rb 10m.txt
+echo '------'
+time ruby process_file.rb 50m.txt
+echo '------'
+time ruby process_file.rb 100m.txt
+
+echo 'Stop processing'

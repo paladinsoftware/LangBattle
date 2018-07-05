@@ -7,6 +7,6 @@ iterations = ARGV[1].to_i
 
 file = File.open("files/#{filename}", 'w+')
 iterations.times do
-  file.write "#{rand(1...5)},#{rand(100..1000)}\r\n"
+  file.write "#{rand(1...50)},#{rand(100..1000)}\r\n"
 end
 file.close

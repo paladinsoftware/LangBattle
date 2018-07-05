@@ -12,5 +12,9 @@ time ruby create_test_file.rb 100k.txt 100_000
 time ruby create_test_file.rb 250k.txt 250_000
 time ruby create_test_file.rb 500k.txt 500_000
 time ruby create_test_file.rb 1m.txt 1_000_000
+time ruby create_test_file.rb 5m.txt 5_000_000
+time ruby create_test_file.rb 10m.txt 10_000_000
+time ruby create_test_file.rb 50m.txt 50_000_000
+time ruby create_test_file.rb 100m.txt 100_000_000
 
 echo 'End'
