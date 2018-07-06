@@ -16,5 +16,7 @@ end
 puts "TOP 5 VIDEOS:"
 pp result.max_by(5) { |k, v| v }
 
+puts "DISTINCT VIDEOS: #{result.length}"
+
 memory = `ps -o rss -p #{Process::pid}`.chomp.split("\n").last.strip.to_i
 puts "MEMORY: #{memory/1024} MB"
