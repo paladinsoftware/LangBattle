@@ -2,30 +2,30 @@
 
 echo 'Start processing'
 
-time ruby process_file.rb 100.txt
+time ruby process_file.rb tmp/100.txt
 echo '------'
-time ruby process_file.rb 1k.txt
+time ruby process_file.rb tmp/1k.txt
 echo '------'
-time ruby process_file.rb 5k.txt
+time ruby process_file.rb tmp/5k.txt
 echo '------'
-time ruby process_file.rb 10k.txt
+time ruby process_file.rb tmp/10k.txt
 echo '------'
-time ruby process_file.rb 30k.txt
+time ruby process_file.rb tmp/30k.txt
 echo '------'
-time ruby process_file.rb 50k.txt
+time ruby process_file.rb tmp/50k.txt
 echo '------'
-time ruby process_file.rb 100k.txt
+time ruby process_file.rb tmp/100k.txt
 echo '------'
-time ruby process_file.rb 250k.txt
+time ruby process_file.rb tmp/250k.txt
 echo '------'
-time ruby process_file.rb 500k.txt
+time ruby process_file.rb tmp/500k.txt
 echo '------'
-time ruby process_file.rb 1m.txt
+time ruby process_file.rb tmp/1m.txt
 echo '------'
-time ruby process_file.rb 10m.txt
+time ruby process_file.rb tmp/10m.txt
 echo '------'
-time ruby process_file.rb 50m.txt
+time ruby process_file.rb tmp/50m.txt
 echo '------'
-time ruby process_file.rb 100m.txt
+time ruby process_file.rb tmp/100m.txt
 
 echo 'Stop processing'
